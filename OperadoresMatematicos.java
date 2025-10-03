@@ -34,14 +34,11 @@ public class OperadoresMatematicos {
         //Asignacion
         int c = 20;
         c+=5; // c = c + 5
+        c-= 1; // c = c - 1
+        c*= 2; // c = c * 2
+        c/= 3; // c = c / 3
+        c%= 4; // c = c % 4
+        c+= 100; // c = c + 100
         System.out.println("Asignación de c: " + c);
-
-        // Operadores de comparación
-        System.out.println("a es igual a b: " + (a == b));
-        System.out.println("a es diferente de b: " + (a != b));
-        System.out.println("a es mayor que b: " + (a > b));
-        System.out.println("a es menor que b: " + (a < b));
-        System.out.println("a es mayor o igual que b: " + (a >= b));
-        System.out.println("a es menor o igual que b: " + (a <= b));
     }
 }
